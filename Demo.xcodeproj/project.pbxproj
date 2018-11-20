@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		EC40F6CB21A415B700D3766C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC40F6CA21A415B700D3766C /* AppDelegate.swift */; };
-		EC40F6D221A415B700D3766C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC40F6D121A415B700D3766C /* Assets.xcassets */; };
 		EC40F6D521A415B700D3766C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC40F6D321A415B700D3766C /* LaunchScreen.storyboard */; };
 		EC40F6DE21A4253A00D3766C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC40F6DC21A4253A00D3766C /* HomeViewController.swift */; };
 		EC40F6DF21A4253A00D3766C /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC40F6DD21A4253A00D3766C /* HomeViewController.xib */; };
 		EC40F6E221A4488600D3766C /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC40F6E021A4488600D3766C /* PictureViewController.swift */; };
 		EC40F6E321A4488600D3766C /* PictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC40F6E121A4488600D3766C /* PictureViewController.xib */; };
+		EC40F6E521A46AED00D3766C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC40F6E421A46AED00D3766C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EC40F6C721A415B700D3766C /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC40F6CA21A415B700D3766C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC40F6D121A415B700D3766C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC40F6D421A415B700D3766C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC40F6D621A415B700D3766C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC40F6DC21A4253A00D3766C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		EC40F6DD21A4253A00D3766C /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		EC40F6E021A4488600D3766C /* PictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
 		EC40F6E121A4488600D3766C /* PictureViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PictureViewController.xib; sourceTree = "<group>"; };
+		EC40F6E421A46AED00D3766C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				EC40F6CA21A415B700D3766C /* AppDelegate.swift */,
-				EC40F6D121A415B700D3766C /* Assets.xcassets */,
+				EC40F6E421A46AED00D3766C /* Assets.xcassets */,
 				EC40F6D321A415B700D3766C /* LaunchScreen.storyboard */,
 				EC40F6D621A415B700D3766C /* Info.plist */,
 				EC40F6DC21A4253A00D3766C /* HomeViewController.swift */,
@@ -131,7 +131,7 @@
 			files = (
 				EC40F6D521A415B700D3766C /* LaunchScreen.storyboard in Resources */,
 				EC40F6E321A4488600D3766C /* PictureViewController.xib in Resources */,
-				EC40F6D221A415B700D3766C /* Assets.xcassets in Resources */,
+				EC40F6E521A46AED00D3766C /* Assets.xcassets in Resources */,
 				EC40F6DF21A4253A00D3766C /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

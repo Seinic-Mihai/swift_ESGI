@@ -4,6 +4,11 @@ class PictureViewController: UIViewController {
 
     @IBOutlet var helloTextField: UITextField!
     @IBOutlet var backgroundImageView: UIImageView!
+    static let images: [String] = [
+        "41trnBjzshL",
+        "Unknown",
+        "2"
+    ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +23,11 @@ class PictureViewController: UIViewController {
         self.backgroundImageView.alpha = CGFloat(sender.value)
     }
     
+    @IBAction func changeImage(_ sender: UISegmentedControl) {
+        let str = PictureViewController.images[sender.selectedSegmentIndex]
+        let img = UIImage(named: str)
+        self.backgroundImageView.image = img
+    }
 }
 
 extension PictureViewController: UITextFieldDelegate{
